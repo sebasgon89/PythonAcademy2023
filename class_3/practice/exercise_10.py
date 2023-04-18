@@ -5,7 +5,7 @@
 
 i = 1
 
-____ i < 6:
+while i < 6:
   print(i)
   i += 1
 
@@ -15,7 +15,7 @@ ____ i < 6:
 i = 1
 while i < 10:
   if i == 5:
-    ______
+    break
   i+=1
 
 # 3
@@ -24,7 +24,7 @@ i = 1
 while i < 6:
   i += 1
   if i == 3:
-    _______
+    continue
 
   print(i)
 
@@ -35,7 +35,7 @@ i = 1
 while i < 10:
   print(i)
   i += 1
-______:
+else:
   print("i is no longer less than 10")
 
 
@@ -52,7 +52,7 @@ ___ x __ fruits:
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   if x == "banana":
-    ________
+    continue
   print(x)
 
 # 7

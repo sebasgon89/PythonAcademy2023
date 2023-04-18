@@ -4,7 +4,7 @@
 a = 10
 b = 5
 
-___ a __ b:
+if a > b:
     print ("Hello Kyndryls")
 
 # 2
@@ -13,38 +13,44 @@ ___ a __ b:
 c = 10
 d = 5
 
-___ a __ b:
+if c != d:
     print ("Hello Kyndryls")
 
 # 3
 # print "yes" if a is equal to b, otherwise print "No".
 
-___ a __ b:
+if a == b:
     print ("yes")
-____:
+else:
     print ("no")
 
 # 4
 # Print "1" if a is equal to b, print "2" if a is greater than b, otherwise print "3".
 
-___ a __ b:
+if a == b:
     print("1")
-____:
+elif a > b:
     print("2")
-____:
+else:
     print("3")
     
 # 5
 # Print "Bye!" if a is equal to b, and c is equal to d.
 
+if a == b and c == d:
+    print("Bye!")
+
 # 6
 # Print "have fun!" if a is equal to b, or if c is equal to d.
+
+if a == b or c == d:
+    print("Have fun!")
 
 
 # 7
 # Insert the missing indentation to make the code correct
 
 if 5 > 2:
-print("fix the error!")
+    print("fix the error!")
 
 

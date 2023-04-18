@@ -6,18 +6,25 @@ l = [1, 2, 3]
 print (len(k))
 print (len(l))
 
+# Es el largo del caracter iterable
+
+
 #2
 # show the first character of the string k
-
+print(k[0])
 
 #3
 # show the charracters "ol" from string k
+print(k[1:2])
 
 #4
 # What is the meaning of the "strip" function?
 
 a = " Kyndryls Goals "
 print (a.strip())
+
+# Es un trim
+
 
 #5
 # List all functions included in string type

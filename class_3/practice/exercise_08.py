@@ -16,14 +16,22 @@ car2 =	{
 # 1
 # Use the method get to show the model
 
+car["model"]
+
 # 2
 # use the method get to show the "color" or "blue" (if color is not present) in bouth dicts
+
+car.get["color"]
 
 # 3
 # add or change the color in dict car to "black"
 
 # 4
 # remove element "year" from car2 dict (check the function pop with help)
+
+car.pop("year")
+
+
 
 
 
