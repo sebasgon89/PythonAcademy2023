@@ -24,6 +24,7 @@ print(l[1])
 # Change the value from "black" to "white", in the list "l".
 
 l[2] = "white"
+l[l.index("black" )] = "white"
 
 #6
 # add the color yellow to the list l (if not remember the function, show the options with dir)
@@ -35,6 +36,7 @@ l.insert(2, "brown")
 
 #8
 # remove the color "blue"
+l.remove("blue")
 
 #9
 # How show the last element in "l"?
@@ -50,7 +52,11 @@ t = tuple(l)
 
 # 12
 # show how many elements in tuple "t"
+len(t)
 
 # 13
 # Use negative index to show the last element in tuple "t"
 
+t[-1]
+
+With square brackets as it is not a function

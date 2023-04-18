@@ -1,2 +1,1 @@
-l = []
-help(l.insert)
+print(k[1:2])
