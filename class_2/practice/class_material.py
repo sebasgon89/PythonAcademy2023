@@ -14,7 +14,7 @@ print("line 1")
 print("line 2")
 
 #error line
-print("\")
+# print("\")
 
 #so, how print '\' ?
 print("\\")
@@ -229,8 +229,8 @@ for x in "banana":
   print(x)
   
   
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
+fruits = ["apple","banana","cherry"]
+for x in fruits:
   print(x)
   
 
